@@ -25,13 +25,13 @@ jobs:
 
       - name: update notion games
         env:
-          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_API_KEY: ${{ 289B5B40FBC8F2D33F853EB60F112ABF }}
           # get from https://steamcommunity.com/dev/apikey
-          STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
+          STEAM_USER_ID: ${{ 76561198256894500 }}
           # get from your steam profile https://steamcommunity.com/profiles/{STEAM_USER_ID}
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_API_KEY: ${{ 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 }}
           # https://developers.notion.com/docs/create-a-notion-integration
-          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          NOTION_DATABASE_ID: ${{ 2e6fefd6aa6a8047a38fcbf2644066b8?v=2e6fefd6aa6a8088a641000ce71e94d }}
           # https://developers.notion.com/reference/retrieve-a-database
           include_played_free_games: ${{secrets.include_played_free_games}}
           #set to 'true' by default
